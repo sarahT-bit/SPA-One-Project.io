@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Quiz SPA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 2rem;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    input {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 100px;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    .message {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    .score {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Math Quiz</h1>
+    <div id="question">Loading...</div>
+    <input type="number" id="answerInput" placeholder="Your answer" />
+    <br>
+    <button onclick="submitAnswer()">Submit</button>
+    <div class="message" id="message"></div>
+    <div class="score" id="score">Score: 0 / 10</div>
+  </div>
+
+  <script>
+    const questions = generateQuestions(10);
+    let currentIndex = 0;
+    let score = 0;
+    let attempts = 0;
+
+    const questionEl = document.getElementById("question");
+    const messageEl = document.getElementById("message");
+    const answerInput = document.getElementById("answerInput");
+    const scoreEl = document.getElementById("score");
+
+    function generateQuestions(count) {
+      const questions = [];
+      for (let i = 0; i < count; i++) {
+        // Generate random integers
+        const x = Math.floor(Math.random() * 10) + 1; // x = 1 to 10
+        const a = Math.floor(Math.random() * 5) + 1;  // coefficient 1 to 5
+        const b = Math.floor(Math.random() * 10);     // constant 0 to 9
+        const c = a * x + b; // right side
+
+        const question = {
+          text: `${a}x + ${b} = ${c}`,
+          answer: x
+        };
+
+        questions.push(question);
+      }
+      return questions;
+    }
+
+    function loadQuestion() {
+      if (currentIndex >= questions.length) {
+        questionEl.innerHTML = "Quiz Finished!";
+        messageEl.innerHTML = `Final Score: ${score} / ${questions.length}`;
+        answerInput.style.display = "none";
+        document.querySelector("button").style.display = "none";
+        return;
+      }
+
+      const q = questions[currentIndex];
+      questionEl.innerHTML = `Question ${currentIndex + 1}: Solve for x<br><strong>${q.text}</strong>`;
+      answerInput.value = '';
+      messageEl.innerHTML = '';
+      attempts = 0;
+    }
+
+    function submitAnswer() {
+      const userAnswer = parseInt(answerInput.value);
+      const correctAnswer = questions[currentIndex].answer;
+
+      if (isNaN(userAnswer)) {
+        messageEl.innerHTML = "Please enter a number.";
+        return;
+      }
+
+      if (userAnswer === correctAnswer) {
+        score++;
+        messageEl.innerHTML = "✅ Correct!";
+        updateScore();
+        currentIndex++;
+        setTimeout(loadQuestion, 1000);
+      } else {
+        attempts++;
+        if (attempts < 3) {
+          messageEl.innerHTML = `❌ Incorrect. Try again. (${3 - attempts} attempts left)`;
+        } else {
+          messageEl.innerHTML = `❌ Incorrect. The correct answer was ${correctAnswer}.`;
+          currentIndex++;
+          setTimeout(loadQuestion, 2000);
+        }
+      }
+    }
+
+    function updateScore() {
+      scoreEl.innerHTML = `Score: ${score} / 10`;
+    }
+
+    // Initialize
+    loadQuestion();
+  </script>
+</body>
+</html>
+
