@@ -16,7 +16,7 @@ display a message saying " Incorrect. Try again" and also tell the user how many
 4. If the user's score ranges from 8-10, a trophy emoji will be displayed alomg 
 with the message " WAY TO GO!".
 
-5. If the user's score ranges from 6-7, a thumbs up emoji will be displayed alomg with the message "SO CLOSE!".
+5. If the user's score ranges from 6-7, a thumbs up emoji will be displayed along with the message "SO CLOSE!".
    
 6. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
    
