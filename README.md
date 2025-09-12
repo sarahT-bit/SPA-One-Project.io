@@ -19,8 +19,6 @@ with the message " WAY TO GO!".
 5. If the user's score ranges from 6-7, a thumbs up emoji will be displayed along with the message "SO CLOSE!".
    
 6. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
-   
-7. Contains a 'Play again' button below the user's score once all ten problems are solved. 
 
 Known Issues or Limitations 
 When conversing with ChatGPT, I noticed how there was no restart button for the user to click on after the user receives their score. So I requested AI to add one and it did (making this an easy fix). 
