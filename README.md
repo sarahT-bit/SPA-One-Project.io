@@ -11,7 +11,7 @@ Features and Functionality:
 2. If the user is correct, then a check mark emoji will be displayed along with a message saying "Correct!".
    
 3. If the user types in the wrong answer, then a red 'X' emoji will appear and 
-display a message saying " Incorrect. Try again" and also tell the user how many attempts they have left to solve that problem. If they get it wrong the next two attempts (they get three in total), then the correct answer will be revealed and  the next problem will be revealed.
+display a message saying " Incorrect. Try again" and also tell the user how many attempts they have left to solve that problem. If they get it wrong the next two attempts (they get three in total), then the correct answer will be revealed and  the next problem will be shown. 
 
 4. If the user's score ranges from 8-10, a trophy emoji will be displayed alomg 
 with the message " WAY TO GO!".
