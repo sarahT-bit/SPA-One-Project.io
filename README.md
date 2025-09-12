@@ -5,6 +5,7 @@ The objective is for the user to type in a solution for x for each linear equati
 that is presented. 
 
 Features and Functionality: 
+
 1.The SPA contains a background of math symbols (addition, subtraction, multiplication, and division) to make the SPA more visually appealing.
 
 2. If the user types in the wrong answer, then a red 'X' emoji will appear and 
