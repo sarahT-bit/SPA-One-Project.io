@@ -1,30 +1,32 @@
 # SPA-One-Project
 
 Project overview and purpose:
-The objective is for the user to type in a solution for x for each linear equation
-that is presented. 
+The objective of my Math Quiz SPA is to help middle school students practice solving for x in linear equations. 
+The user interacts with the website by typing their solution to each equation that appears, aiming to reinforce 
+their equation-solving skills through immediate feedback and multiple problem sets. 
 
 Features and Functionality: 
 
 1.The SPA contains a background of math symbols (addition, subtraction, multiplication, and division) to make the SPA more visually appealing.
 
-2. If the user is correct, then a check mark emoji will be displayed along with a message saying "Correct!".
+2. If the user types in the CORRECT answer, then a green box with a white check mark emoji will be displayed below the submit button
+along with the message "Correct!".
    
-3. If the user types in the wrong answer, then a red 'X' emoji will appear and 
-display a message saying " Incorrect. Try again" and also tell the user how many attempts they have left to solve that problem. If they get it wrong the next two attempts (they get three in total), then the correct answer will be revealed and  the next problem will be shown. 
+3. If the user types in the WRONG answer, then a red 'X' emoji will appear below the submit button displaying the message " Incorrect.Try again".
+The SPA will also tell the user how many attempts they have left to solve that problem. If they get it wrong on the next two attempts (they get three tries in total), then the correct answer will be revealed, and the next problem will be showcased. 
 
-4. If the user's score ranges from 8-10, a trophy emoji will be displayed alomg 
-with the message " WAY TO GO!".
+4. If the user's score ranges from 8-10, a trophy emoji will be displayed along with the message "WAY TO GO!".
 
-5. If the user's score ranges from 6-7, a thumbs up emoji will be displayed along with the message "SO CLOSE!".
+5. If the user's score ranges from 6-7, a thumbs-up emoji will be displayed along with the message "SO CLOSE!".
    
 6. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
 
-Known Issues or Limitations 
-When conversing with ChatGPT, I noticed how there was no restart button for the user to click on after the user receives their score. So I requested AI to add one and it did (making this an easy fix). 
+Known Issues or Limitations: 
+When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score. So, I requested that ChatGPT add one, and it did (making this an easy fix). 
 
 Future Enhancement Ideas: 
-I could give the user various options on what kind of math they want to do practice problems on depending on what grade they're in. For instance, elementary school and high school. 
+I could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's accessible to 
+all grade levels. 
 
 
 
