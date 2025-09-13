@@ -22,7 +22,7 @@ The SPA will also tell the user how many attempts they have left to solve that p
 6. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
 
 Known Issues or Limitations: 
-When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score. So, I requested that ChatGPT add one, and it did (making this an easy fix). 
+When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to try again). So, I requested that ChatGPT add one, and it did (making this an easy fix). 
 
 Future Enhancement Ideas: 
 I could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's accessible to 
