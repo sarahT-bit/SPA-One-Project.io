@@ -7,7 +7,7 @@ their equation-solving skills through immediate feedback and multiple problem se
 
 Features and Functionality: 
 
-1.The SPA contains a background of math symbols (addition, subtraction, multiplication, and division) to make the SPA more visually appealing.
+   1.The SPA contains a background of math symbols (addition, subtraction, multiplication, and division) to make the SPA more visually appealing.
 
 2. If the user submits the CORRECT answer, then a green box with a white check mark emoji will be displayed below the submit button
 along with the message "Correct!".
