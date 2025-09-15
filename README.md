@@ -13,7 +13,7 @@ Features and Functionality:
 along with the message "Correct!".
    
 3. If the user submits the WRONG answer, then a red 'X' emoji will appear below the submit button displaying the message " Incorrect.Try again".
-The remaining attempts the user has left will be displayed as well. If they get it wrong on the next two attempts (they get three tries in total), then the correct answer will be revealed, and the next problem will be showcased.
+The remaining attempts the user has left will be displayed as well. If they STILL submit the wrong answer on the next two attempts (they get three tries in total), then the correct answer will be revealed, and the next problem will be showcased.
 
 4. If the user doesn't type an answer AT ALL, the message "Please enter a number" will be displayed. Refer back to steps 2 & 3 once user types a solution. 
 
@@ -24,7 +24,7 @@ The remaining attempts the user has left will be displayed as well. If they get 
 7. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
 
 Known Issues or Limitations: 
-When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to try mire problems). So, I requested that ChatGPT add one and it did (making this an easy fix). 
+When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to practice more problems). So, I requested that ChatGPT add one and it did (making this an easy fix). 
 
 Future Enhancement Ideas: 
 I could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's not only limited to middle school students. 
