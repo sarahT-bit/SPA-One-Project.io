@@ -24,7 +24,10 @@ The remaining attempts the user has left will be displayed as well. If they STIL
 7. If the user's score is 5 or under, a smiley face emoji will be displayed along with the message "Good attempt! Let's try again".
 
 Known Issues or Limitations: 
-When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to practice more problems). So, I requested that ChatGPT add one and it did (making this an easy fix). 
+When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to practice more problems). So, I requested that ChatGPT add one and it did (making this an easy fix).
+
+HOWEVER, when I ran it the second time, I noticed how there was not only a 'Final Score: * users score*' above, but also one below that said 'Score: *users score*'.
+So, I requested Chat GPT to remove the 'Score' placed on the bottom and it did. 
 
 Future Enhancement Ideas: 
 
