@@ -28,9 +28,9 @@ When running the SPA on the first try, I noticed that there was NO RESTART BUTTO
 
 Future Enhancement Ideas: 
 
-I could provide a calculator feature on the bottom left corner for the student to use if they don't have one.
+I could provide a calculator feature on the bottom left corner of the SPA for the student to use if they don't have their own.
 
-I also could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's not only limited to middle school students. 
+I could also provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's not only limited to middle school students. 
 
 
 
