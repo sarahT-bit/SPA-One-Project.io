@@ -27,7 +27,11 @@ Known Issues or Limitations:
 When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to practice more problems). So, I requested that ChatGPT add one and it did (making this an easy fix). 
 
 Future Enhancement Ideas: 
-I could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's not only limited to middle school students. 
+
+I could provide a calculator feature on the bottom left corner for the student to use if they didn't bring their OWN calculator. 
+
+I also could provide the user with various options for the type of math they want practice problems on, depending on their grade level. That way, it's not only limited to middle school students. 
+
 
 
 
