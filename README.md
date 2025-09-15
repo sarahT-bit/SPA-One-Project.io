@@ -27,7 +27,7 @@ Known Issues or Limitations:
 When running the SPA on the first try, I noticed that there was NO RESTART BUTTON for the user to click on after they received their score (in case they wanted to practice more problems). So, I requested that ChatGPT add one and it did (making this an easy fix).
 
 HOWEVER, when I ran it the second time, I noticed how there was not only a 'Final Score: * users score*' above, but also one below that said 'Score: *users score*'.
-So, I requested Chat GPT to remove the 'Score' placed on the bottom and it did. So, only thr 'Final Score:' can be seen. 
+So, I requested Chat GPT to remove the 'Score' placed on the bottom and it did. So, only the 'Final Score:' can be seen. 
 
 Future Enhancement Ideas: 
 
